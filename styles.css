@@ -102,6 +102,7 @@ body {
 .burger {
     display: none;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .burger div {
@@ -639,6 +640,7 @@ body {
     color: var(--white);
     font-size: 1rem;
     transition: all 0.3s ease;
+    border-bottom: rgba(227, 27, 35, 0.5) 1px solid;
 }
 
 .form-control:focus {
@@ -796,3 +798,4 @@ textarea.form-control {
         grid-template-columns: 1fr;
     }
 }
+
